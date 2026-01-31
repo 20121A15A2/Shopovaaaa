@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyShop - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="toast"></div>
+
+<header>
+  <nav>
+    <div class="logo">MyShop</div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="cart.html">Cart <span id="cartBadge" style="display:none; background:#e44d26; color:white; border-radius:50%; padding:1px 6px; font-size:11px; margin-left:3px;"></span></a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<h1 class="page-title">Welcome to MyShop</h1>
+<p class="page-subtitle">Browse our collection and add your favourites to cart</p>
+
+<div class="container">
+  <div class="products-grid" id="productsGrid">
+    <!-- Products rendered by JS -->
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 MyShop. All rights reserved.</p>
+  <p style="margin-top:8px;">
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
